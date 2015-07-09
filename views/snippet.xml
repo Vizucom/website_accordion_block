@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="custom_snippet_cycle" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/website_accordion_block/static/src/img/block_accordion.png" />
+                        <span class="oe_snippet_thumbnail_title">Accordion</span>
+                    </div>
+
+                    <div class="panel panel-default oe_snippet_body">
+                        <div class="panel-heading">
+                          <h3 class="panel-title">
+                            <span class="collapse-title collapsed">Accordion</span>
+                          </h3>
+                        </div>
+                        <div class="panel-collapse collapse">
+                          <div class="panel-body oe_structure">
+                            Use the accordion to add content that you want to have hidden by default.
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</openerp>

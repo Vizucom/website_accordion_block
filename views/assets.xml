@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="assets_frontend" inherit_id="website.assets_frontend" name="website_accordion">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/website_accordion_block/static/src/js/accordion.js"></script>
+                <link href="/website_accordion_block/static/src/css/styles.css" rel="stylesheet"/>
+            </xpath>
+        </template>
+    </data>
+</openerp>
