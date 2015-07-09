@@ -2,7 +2,7 @@
 <openerp>
     <data>
         <template id="custom_snippet_cycle" inherit_id="website.snippets">
-            <xpath expr="//div[@id='snippet_structure']" position="inside">
+            <xpath expr="//div[@id='snippet_content']" position="inside">
                 <div>
                     <div class="oe_snippet_thumbnail">
                         <img class="oe_snippet_thumbnail_img" src="/website_accordion_block/static/src/img/block_accordion.png" />
